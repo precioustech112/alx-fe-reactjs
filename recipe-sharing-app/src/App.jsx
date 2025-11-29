@@ -1,8 +1,10 @@
+import React from 'react'
 import { useState } from 'react'
 import './App.css'
+import { useRecipeStore } from "./recipeStore";
 
-import AddRecipeForm from "./components/AddRecipeForm";
-import RecipeList from "./components/RecipeList";
+import AddRecipeForm from "./AddRecipeForm";
+import RecipeList from "./RecipeList";
 
 function App() {
   return (
